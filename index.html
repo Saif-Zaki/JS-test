@@ -1,20 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
-    <form action="">
-        <label for="">Age:</label>
-        <div><input type="number" name="" id="test"></div>
-        <label for="">Color:</label>
-        <div><input type="color" name="" id="colorInput"></div>
-    </form>
-    <button onclick="checkIfAllowed()">check</button>
-    <p id="result" style="font-size: 100px;width: 80%; margin: auto; text-align: center;"></p>
+    <header>
+        <nav>
+            <ul style="display: flex; justify-content: space-between; width: 30%; margin: auto;">
+                <li><a onclick="Scroll('about')">About</a></li>
+                <!-- <li><a href="">Our Product</a></li> -->
+                <li><a onclick="Scroll('form')">Contact</a></li>
+            </ul>
+        </nav>
+        <div>
+            <p>Saif</p>
+            <p>Building Imposible</p>
+            <p>Building<br>success,<br>one material <br>at a time</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="about" id="about">
+            <h4 style="text-align: center; font-size: 80px;">About us</h4>
+            <div class="inner">
+                <div class="c">
+                    <p style="text-align: center;">What We Do?</p>
+                    <p id="t1"></p>
+                </div>
+                <div class="c">
+                    <p style="text-align: center;">What We Do?</p>
+                    <p id="t2"></p>
+                </div>
+                <div class="c">
+                    <p style="text-align: center;">What We Do?</p>
+                    <p id="t3"></p>
+                </div>
+            </div>
+
+        </section>
+        <section class="form" id="form">
+            <h4 style="text-align: center; font-size: 80px;">Content</h4>
+            <form>
+                <label>Name:</label>
+                <input typr="text" name="from_name" placeholder="Enter your Name...">
+                <br>
+                <label>Email:</label>
+                <input typr="email" name="from_email" placeholder="Enter your Email...">
+                <br>
+                <label>Phone:</label><input typr="text" name="phone_number" placeholder="Enter your Phone...">
+                <br>
+                <label>Subject:</label><input typr="text" name="subject" placeholder="Subject...">
+                <br>
+                <label>Message:</label><textarea typr="text" name="message" placeholder="Enter your Message..."
+                    cols="100" rows="10"></textarea>
+                <br>
+                <button type="submit" class="sendButton">send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>P.O.Box 191513 Office 1003, JBC5 Tovver, Cluster WJurneirah Lakes Towers, Dubai, United Arab Emirates.
+        </p>
+        <P>Phone:(+971) 42733 793 | Ernail:info@prcgetti-me
+        </p>
+    </footer>
     <script src="script.js"></script>
 </body>
+
 </html>

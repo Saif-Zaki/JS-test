@@ -1,0 +1,112 @@
+:root{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    overflow: hidden;
+    height: 1000px;
+    width: 100%;
+    background: url(../images/Frame3.8e2fc3be2c54126b0ff1.png) no-repeat center/cover;
+}
+
+header p {
+    color: white;
+}
+
+header div {
+    position: absolute;
+    left: 20%;
+    top: 30%;
+}
+
+header p:first-of-type {
+    font-weight: 900;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header p:nth-of-type(2) {
+    font-weight: 100;
+    font-size: 60px;
+    font-family: 'Geneva, Verdana, sans-serif';
+}
+
+header p:nth-of-type(3) {
+    font-weight: 100;
+    color: #60CDA5;
+    font-size: 30px;
+    font-family: 'Geneva, Verdana, sans-serif';
+}
+
+nav {
+    padding-block: 50px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    color: rgba(255, 255, 255, 0.753);
+    text-decoration: none;
+}
+
+main {
+    overflow: hidden;
+}
+
+.about {
+    height: 380px;
+    overflow: hidden;
+    padding-block: 1px;
+    margin-block: 50px;
+}
+
+.inner {
+    margin-top: 100px;
+    width: 60%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.form {
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+}
+
+form label {
+    display: block;
+    color: #2e614e;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+form input{
+    width: 90%;
+    margin: auto;
+}
+footer{
+    color: white;
+    height: 300px;
+    background-color: black;
+    text-align: center;
+    overflow: hidden;
+}
+footer p{
+    margin: 55px;
+    transform: translateY(50%);
+    
+}
+footer p:nth-of-type(1){
+    color: #60CDA5; 
+}
